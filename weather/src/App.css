@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(194, 215, 236);
+}
+.main-block{
+  /* background: url(./img/wp8030352-macbook-4k-wallpapers.jpeg) ; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center ;
+}
+/* .heading{
+  color: rgb(216, 39, 39);
+} */
+.output-block{
+  height: 400px;
+  width: 300px;
+  /* border: 2px solid red; */
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+}
+input{
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  text-align: center;
+  height: 50px;
+  width: 300px;
+  font-size: 24px;
+  /* box-shadow: 4px 4px 10px grey; */
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  text-transform: capitalize;
+}
+
+.city-name{
+font-size: 40px;
+}
+.weather-icon{
+  width: 150px;
+  height: 150px;
+  border: 1px solid pink;
+}
+.city-temp{
+  font-size: 50px;
+  font-weight: 600;
+}
+.daily-data , .week-data{
+  padding: 10px;
+  outline: none;
+  margin: 10px;
+  border-radius: 24px;
+  border: 0.5px solid red;
+   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+   background-color: rgb(157, 142, 224);
+   color: white;
+
+}
+button::hover{
+  color: red;
+}
+
+.hide{
+  height: 0px;
+}
