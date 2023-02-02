@@ -8,14 +8,14 @@ import GIFLoader from "./GIFLoader";
 function App() {
   const [data, setData] = useState({});
   const [inputCity, setInputCity] = useState("");
-  const apiKey = "30fd7d89057ca8aca65111ef1785ff41";
-     
+  const apiKey = process.env.REACT_APP_API_KEY;
+
   // if (typeof data.main != "undefined") {
   //   const weatherType = data?.weather[0].main ;
   //   // console.log("mukul", weatherType);
   // }
 
- 
+
   ////API Call
   const getWeatherDetails = (cityName) => {
     if (!cityName) return;
@@ -63,7 +63,7 @@ function App() {
   //   getWeatherDetails("delhi");
   // },[])
   // const imageResolver = () => {
-    
+
   // }
 
   return (
